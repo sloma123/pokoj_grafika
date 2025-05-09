@@ -65,3 +65,4 @@ for area in bpy.context.screen.areas:
             if space.type == 'VIEW_3D':
                 space.region_3d.view_perspective = 'CAMERA'
 #pliki w pythonie
+#tu coś pisze
