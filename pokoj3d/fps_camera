@@ -86,3 +86,4 @@ class FirstPersonCamera(bge.types.KX_PythonComponent):
 
             if self.limitRot:
                 self.cameraLimits()
+##

@@ -1,10 +1,10 @@
 import bpy
 
-# 🔄 Wyczyść scenę
+# Wyczyść scenę
 bpy.ops.object.select_all(action='SELECT')
 bpy.ops.object.delete(use_global=False)
 
-# 📐 Parametry pokoju
+# Parametry pokoju
 width = 10
 depth = 10
 height = 6
@@ -24,7 +24,7 @@ def create_wall(name, scale, location):
     wall.game.use_collision_bounds = True
     return wall
 
-# 🧱 Ściany i podłoga
+# Ściany i podłoga
 create_wall("Floor", (width/2, depth/2, thickness/2), (0, 0, 0))
 create_wall("Ceiling", (width/2, depth/2, thickness/2), (0, 0, height))
 create_wall("Wall_Back",  (width/2, thickness/2, height/2), (0, -depth/2, height/2))
