@@ -35,3 +35,4 @@ class ThirdPerson(bge.types.KX_PythonComponent):
 
         # Zastosuj ruch w lokalnym układzie współrzędnych (True)
         self.object.applyMovement((move_x, 0, move_y ), True)
+#test
