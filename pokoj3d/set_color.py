@@ -4,7 +4,10 @@ class SetObjectColor(bge.types.KX_PythonComponent):
     args = {}
 
     def start(self, args):
-        self.object.color = (1.0, 0.3, 0.7, 1.0)  # Ustawienie koloru RGBA
+        # Ustawienie koloru RGBA
+        #maksymalna wartość =1 (100%)
+        self.object.color = (0.88, 0.59, 1.0, 0.08)   
 
-    def update(self):
+    def update(self): # metoda wywoływana automatycznie co klatkę 
+    # pusta instrukcja w Pythonie — oznacza "nic nie rób".
         pass
